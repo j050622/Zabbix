@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
-    <version>3.0</version>
-    <date>2016-06-18T08:06:50Z</date>
+    <version>2.0</version>
+    <date>2017-12-28T02:33:21Z</date>
     <groups>
         <group>
             <name>Percona Templates</name>
@@ -9,8 +9,8 @@
     </groups>
     <templates>
         <template>
-            <template>Template Percona MySQL Server</template>
-            <name>Template Percona MySQL Server</name>
+            <template>Percona MySQL Server Template</template>
+            <name>Percona MySQL Server Template</name>
             <description/>
             <groups>
                 <group>
@@ -32,7 +32,7 @@
                     <key>MySQL.Aborted-clients</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -75,7 +75,7 @@
                     <key>MySQL.Aborted-connects</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -118,7 +118,7 @@
                     <key>MySQL.active-transactions</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -161,7 +161,7 @@
                     <key>MySQL.adaptive-hash-memory</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -204,7 +204,7 @@
                     <key>MySQL.additional-pool-alloc</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -247,7 +247,7 @@
                     <key>MySQL.binary-log-space</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -290,7 +290,7 @@
                     <key>MySQL.Binlog-cache-disk-use</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -333,7 +333,7 @@
                     <key>MySQL.Binlog-cache-use</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -376,7 +376,7 @@
                     <key>MySQL.Bytes-received</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -419,7 +419,7 @@
                     <key>MySQL.Bytes-sent</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -462,7 +462,7 @@
                     <key>MySQL.Com-delete</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -505,7 +505,7 @@
                     <key>MySQL.Com-delete-multi</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -548,7 +548,7 @@
                     <key>MySQL.Com-insert</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -591,7 +591,7 @@
                     <key>MySQL.Com-insert-select</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -634,7 +634,7 @@
                     <key>MySQL.Com-load</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -677,7 +677,7 @@
                     <key>MySQL.Com-replace</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -720,7 +720,7 @@
                     <key>MySQL.Com-replace-select</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -763,7 +763,7 @@
                     <key>MySQL.Com-select</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -806,7 +806,7 @@
                     <key>MySQL.Com-update</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -849,7 +849,7 @@
                     <key>MySQL.Com-update-multi</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -892,7 +892,7 @@
                     <key>MySQL.Connections</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -935,7 +935,7 @@
                     <key>MySQL.Created-tmp-disk-tables</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -978,7 +978,7 @@
                     <key>MySQL.Created-tmp-files</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1021,7 +1021,7 @@
                     <key>MySQL.Created-tmp-tables</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1064,7 +1064,7 @@
                     <key>MySQL.current-transactions</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1107,7 +1107,7 @@
                     <key>MySQL.database-pages</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1150,7 +1150,7 @@
                     <key>MySQL.dictionary-cache-memory</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1193,7 +1193,7 @@
                     <key>MySQL.file-fsyncs</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1236,7 +1236,7 @@
                     <key>MySQL.file-reads</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1279,7 +1279,7 @@
                     <key>MySQL.file-system-memory</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1322,7 +1322,7 @@
                     <key>MySQL.file-writes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1365,7 +1365,7 @@
                     <key>MySQL.free-pages</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1408,7 +1408,7 @@
                     <key>MySQL.Handler-commit</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1451,7 +1451,7 @@
                     <key>MySQL.Handler-delete</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1494,7 +1494,7 @@
                     <key>MySQL.Handler-read-first</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1537,7 +1537,7 @@
                     <key>MySQL.Handler-read-key</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1580,7 +1580,7 @@
                     <key>MySQL.Handler-read-next</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1623,7 +1623,7 @@
                     <key>MySQL.Handler-read-prev</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1666,7 +1666,7 @@
                     <key>MySQL.Handler-read-rnd</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1709,7 +1709,7 @@
                     <key>MySQL.Handler-read-rnd-next</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1752,7 +1752,7 @@
                     <key>MySQL.Handler-rollback</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1795,7 +1795,7 @@
                     <key>MySQL.Handler-savepoint</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1838,7 +1838,7 @@
                     <key>MySQL.Handler-savepoint-rollback</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1881,7 +1881,7 @@
                     <key>MySQL.Handler-update</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1924,7 +1924,7 @@
                     <key>MySQL.Handler-write</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -1967,7 +1967,7 @@
                     <key>MySQL.hash-index-cells-total</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2010,7 +2010,7 @@
                     <key>MySQL.hash-index-cells-used</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2053,7 +2053,7 @@
                     <key>MySQL.history-list</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2096,7 +2096,7 @@
                     <key>MySQL.ibuf-cell-count</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2139,7 +2139,7 @@
                     <key>MySQL.ibuf-free-cells</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2182,7 +2182,7 @@
                     <key>MySQL.ibuf-inserts</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2225,7 +2225,7 @@
                     <key>MySQL.ibuf-merged</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2268,7 +2268,7 @@
                     <key>MySQL.ibuf-merges</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2311,7 +2311,7 @@
                     <key>MySQL.ibuf-used-cells</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2346,6 +2346,49 @@
                     <logtimefmt/>
                 </item>
                 <item>
+                    <name>Innodb Locked Tables</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>MySQL.innodb-locked-tables</key>
+                    <delay>300</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>MySQL Innodb Locked Tables</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>MySQL</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
                     <name>Innodb Lock Structs</name>
                     <type>0</type>
                     <snmp_community/>
@@ -2354,7 +2397,7 @@
                     <key>MySQL.innodb-lock-structs</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2397,7 +2440,7 @@
                     <key>MySQL.innodb-lock-wait-secs</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2432,49 +2475,6 @@
                     <logtimefmt/>
                 </item>
                 <item>
-                    <name>Innodb Locked Tables</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
-                    <key>MySQL.innodb-locked-tables</key>
-                    <delay>300</delay>
-                    <history>90</history>
-                    <trends>180</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <delta>0</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>MySQL Innodb Locked Tables</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>MySQL</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                </item>
-                <item>
                     <name>Innodb Log Buffer Size</name>
                     <type>0</type>
                     <snmp_community/>
@@ -2483,7 +2483,7 @@
                     <key>MySQL.innodb-log-buffer-size</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2526,7 +2526,7 @@
                     <key>MySQL.Innodb-row-lock-time</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2569,7 +2569,7 @@
                     <key>MySQL.Innodb-row-lock-waits</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2604,49 +2604,6 @@
                     <logtimefmt/>
                 </item>
                 <item>
-                    <name>Innodb Sem Wait Time Ms</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
-                    <key>MySQL.innodb-sem-wait-time-ms</key>
-                    <delay>300</delay>
-                    <history>90</history>
-                    <trends>180</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <delta>0</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>MySQL Innodb Sem Wait Time Ms</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>MySQL</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                </item>
-                <item>
                     <name>Innodb Sem Waits</name>
                     <type>0</type>
                     <snmp_community/>
@@ -2655,7 +2612,7 @@
                     <key>MySQL.innodb-sem-waits</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2690,6 +2647,49 @@
                     <logtimefmt/>
                 </item>
                 <item>
+                    <name>Innodb Sem Wait Time Ms</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>MySQL.innodb-sem-wait-time-ms</key>
+                    <delay>300</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>MySQL Innodb Sem Wait Time Ms</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>MySQL</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
                     <name>Innodb Tables In Use</name>
                     <type>0</type>
                     <snmp_community/>
@@ -2698,7 +2698,7 @@
                     <key>MySQL.innodb-tables-in-use</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2741,7 +2741,7 @@
                     <key>MySQL.innodb-transactions</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2784,7 +2784,7 @@
                     <key>MySQL.Key-buf-bytes-unflushed</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2827,7 +2827,7 @@
                     <key>MySQL.Key-buf-bytes-used</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2870,7 +2870,7 @@
                     <key>MySQL.key-buffer-size</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2913,7 +2913,7 @@
                     <key>MySQL.Key-read-requests</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2956,7 +2956,7 @@
                     <key>MySQL.Key-reads</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -2999,7 +2999,7 @@
                     <key>MySQL.Key-write-requests</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3042,7 +3042,7 @@
                     <key>MySQL.Key-writes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3077,49 +3077,6 @@
                     <logtimefmt/>
                 </item>
                 <item>
-                    <name>Lock System Memory</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
-                    <key>MySQL.lock-system-memory</key>
-                    <delay>300</delay>
-                    <history>90</history>
-                    <trends>180</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units>B</units>
-                    <delta>0</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>MySQL Lock System Memory</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>MySQL</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                </item>
-                <item>
                     <name>Locked Transactions</name>
                     <type>0</type>
                     <snmp_community/>
@@ -3128,7 +3085,7 @@
                     <key>MySQL.locked-transactions</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3163,6 +3120,49 @@
                     <logtimefmt/>
                 </item>
                 <item>
+                    <name>Lock System Memory</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>MySQL.lock-system-memory</key>
+                    <delay>300</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units>B</units>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>MySQL Lock System Memory</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>MySQL</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
                     <name>Log Bytes Flushed</name>
                     <type>0</type>
                     <snmp_community/>
@@ -3171,7 +3171,7 @@
                     <key>MySQL.log-bytes-flushed</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3214,7 +3214,7 @@
                     <key>MySQL.log-bytes-written</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3257,7 +3257,7 @@
                     <key>MySQL.log-writes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3300,7 +3300,7 @@
                     <key>MySQL.max-connections</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3343,7 +3343,7 @@
                     <key>MySQL.Max-used-connections</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3386,7 +3386,7 @@
                     <key>MySQL.modified-pages</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3421,6 +3421,92 @@
                     <logtimefmt/>
                 </item>
                 <item>
+                    <name>MySQL running slave</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>MySQL.running-slave</key>
+                    <delay>60</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>MySQL running slave</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>MySQL</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
+                    <name>Opened Tables</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>MySQL.Opened-tables</key>
+                    <delay>300</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>0</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>1</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>MySQL Opened Tables</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>MySQL</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
                     <name>Open Files</name>
                     <type>0</type>
                     <snmp_community/>
@@ -3429,7 +3515,7 @@
                     <key>MySQL.Open-files</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3472,7 +3558,7 @@
                     <key>MySQL.Open-tables</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3507,49 +3593,6 @@
                     <logtimefmt/>
                 </item>
                 <item>
-                    <name>Opened Tables</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
-                    <key>MySQL.Opened-tables</key>
-                    <delay>300</delay>
-                    <history>90</history>
-                    <trends>180</trends>
-                    <status>0</status>
-                    <value_type>0</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <delta>1</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>MySQL Opened Tables</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>MySQL</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                </item>
-                <item>
                     <name>Os Waits</name>
                     <type>0</type>
                     <snmp_community/>
@@ -3558,7 +3601,7 @@
                     <key>MySQL.os-waits</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3601,7 +3644,7 @@
                     <key>MySQL.page-hash-memory</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3644,7 +3687,7 @@
                     <key>MySQL.pages-created</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3687,7 +3730,7 @@
                     <key>MySQL.pages-read</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3730,7 +3773,7 @@
                     <key>MySQL.pages-written</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3773,7 +3816,7 @@
                     <key>MySQL.pending-aio-log-ios</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3816,7 +3859,7 @@
                     <key>MySQL.pending-aio-sync-ios</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3859,7 +3902,7 @@
                     <key>MySQL.pending-buf-pool-flushes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3902,7 +3945,7 @@
                     <key>MySQL.pending-chkp-writes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3945,7 +3988,7 @@
                     <key>MySQL.pending-ibuf-aio-reads</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -3988,7 +4031,7 @@
                     <key>MySQL.pending-log-flushes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4031,7 +4074,7 @@
                     <key>MySQL.pending-log-writes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4074,7 +4117,7 @@
                     <key>MySQL.pending-normal-aio-reads</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4117,7 +4160,7 @@
                     <key>MySQL.pending-normal-aio-writes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4160,7 +4203,7 @@
                     <key>MySQL.pool-read-requests</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4203,7 +4246,7 @@
                     <key>MySQL.pool-reads</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4246,7 +4289,7 @@
                     <key>MySQL.pool-size</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4289,7 +4332,7 @@
                     <key>MySQL.Qcache-free-blocks</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4332,7 +4375,7 @@
                     <key>MySQL.Qcache-free-memory</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4375,7 +4418,7 @@
                     <key>MySQL.Qcache-hits</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4418,7 +4461,7 @@
                     <key>MySQL.Qcache-inserts</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4461,7 +4504,7 @@
                     <key>MySQL.Qcache-lowmem-prunes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4504,7 +4547,7 @@
                     <key>MySQL.Qcache-not-cached</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4547,7 +4590,7 @@
                     <key>MySQL.Qcache-queries-in-cache</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4590,7 +4633,7 @@
                     <key>MySQL.Qcache-total-blocks</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4633,7 +4676,7 @@
                     <key>MySQL.query-cache-size</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4676,7 +4719,7 @@
                     <key>MySQL.Query-time-count-00</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4719,7 +4762,7 @@
                     <key>MySQL.Query-time-count-01</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4762,7 +4805,7 @@
                     <key>MySQL.Query-time-count-02</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4805,7 +4848,7 @@
                     <key>MySQL.Query-time-count-03</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4848,7 +4891,7 @@
                     <key>MySQL.Query-time-count-04</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4891,7 +4934,7 @@
                     <key>MySQL.Query-time-count-05</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4934,7 +4977,7 @@
                     <key>MySQL.Query-time-count-06</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -4977,7 +5020,7 @@
                     <key>MySQL.Query-time-count-07</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5020,7 +5063,7 @@
                     <key>MySQL.Query-time-count-08</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5063,7 +5106,7 @@
                     <key>MySQL.Query-time-count-09</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5106,7 +5149,7 @@
                     <key>MySQL.Query-time-count-10</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5149,7 +5192,7 @@
                     <key>MySQL.Query-time-count-11</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5192,7 +5235,7 @@
                     <key>MySQL.Query-time-count-12</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5235,7 +5278,7 @@
                     <key>MySQL.Query-time-count-13</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5278,7 +5321,7 @@
                     <key>MySQL.Query-time-total-00</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5321,7 +5364,7 @@
                     <key>MySQL.Query-time-total-01</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5364,7 +5407,7 @@
                     <key>MySQL.Query-time-total-02</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5407,7 +5450,7 @@
                     <key>MySQL.Query-time-total-03</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5450,7 +5493,7 @@
                     <key>MySQL.Query-time-total-04</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5493,7 +5536,7 @@
                     <key>MySQL.Query-time-total-05</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5536,7 +5579,7 @@
                     <key>MySQL.Query-time-total-06</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5579,7 +5622,7 @@
                     <key>MySQL.Query-time-total-07</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5622,7 +5665,7 @@
                     <key>MySQL.Query-time-total-08</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5665,7 +5708,7 @@
                     <key>MySQL.Query-time-total-09</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5708,7 +5751,7 @@
                     <key>MySQL.Query-time-total-10</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5751,7 +5794,7 @@
                     <key>MySQL.Query-time-total-11</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5794,7 +5837,7 @@
                     <key>MySQL.Query-time-total-12</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5837,7 +5880,7 @@
                     <key>MySQL.Query-time-total-13</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5880,7 +5923,7 @@
                     <key>MySQL.Questions</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5923,7 +5966,7 @@
                     <key>MySQL.read-views</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -5966,7 +6009,7 @@
                     <key>MySQL.recovery-system-memory</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6009,7 +6052,7 @@
                     <key>MySQL.relay-log-space</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6052,7 +6095,7 @@
                     <key>MySQL.rows-deleted</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6095,7 +6138,7 @@
                     <key>MySQL.rows-inserted</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6138,7 +6181,7 @@
                     <key>MySQL.rows-read</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6181,7 +6224,7 @@
                     <key>MySQL.rows-updated</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6216,49 +6259,6 @@
                     <logtimefmt/>
                 </item>
                 <item>
-                    <name>MySQL running slave</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
-                    <key>MySQL.running-slave</key>
-                    <delay>60</delay>
-                    <history>90</history>
-                    <trends>180</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <delta>0</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>MySQL running slave</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>MySQL</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                </item>
-                <item>
                     <name>Select Full Join</name>
                     <type>0</type>
                     <snmp_community/>
@@ -6267,7 +6267,7 @@
                     <key>MySQL.Select-full-join</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6310,7 +6310,7 @@
                     <key>MySQL.Select-full-range-join</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6353,7 +6353,7 @@
                     <key>MySQL.Select-range</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6396,7 +6396,7 @@
                     <key>MySQL.Select-range-check</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6439,7 +6439,7 @@
                     <key>MySQL.Select-scan</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6482,7 +6482,7 @@
                     <key>MySQL.slave-lag</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6525,7 +6525,7 @@
                     <key>MySQL.Slave-open-temp-tables</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6568,7 +6568,7 @@
                     <key>MySQL.Slave-retried-transactions</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6611,7 +6611,7 @@
                     <key>MySQL.slave-running</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6654,7 +6654,7 @@
                     <key>MySQL.slave-stopped</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6697,7 +6697,7 @@
                     <key>MySQL.Slow-queries</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6740,7 +6740,7 @@
                     <key>MySQL.Sort-merge-passes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6783,7 +6783,7 @@
                     <key>MySQL.Sort-range</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6826,7 +6826,7 @@
                     <key>MySQL.Sort-rows</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6869,7 +6869,7 @@
                     <key>MySQL.Sort-scan</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6912,7 +6912,7 @@
                     <key>MySQL.spin-rounds</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6955,7 +6955,7 @@
                     <key>MySQL.spin-waits</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -6998,7 +6998,7 @@
                     <key>MySQL.State-closing-tables</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7041,7 +7041,7 @@
                     <key>MySQL.State-copying-to-tmp-table</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7084,7 +7084,7 @@
                     <key>MySQL.State-end</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7127,7 +7127,7 @@
                     <key>MySQL.State-freeing-items</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7170,7 +7170,7 @@
                     <key>MySQL.State-init</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7213,7 +7213,7 @@
                     <key>MySQL.State-locked</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7256,7 +7256,7 @@
                     <key>MySQL.State-login</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7299,7 +7299,7 @@
                     <key>MySQL.State-none</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7342,7 +7342,7 @@
                     <key>MySQL.State-other</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7385,7 +7385,7 @@
                     <key>MySQL.State-preparing</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7428,7 +7428,7 @@
                     <key>MySQL.State-reading-from-net</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7471,7 +7471,7 @@
                     <key>MySQL.State-sending-data</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7514,7 +7514,7 @@
                     <key>MySQL.State-sorting-result</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7557,7 +7557,7 @@
                     <key>MySQL.State-statistics</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7600,7 +7600,7 @@
                     <key>MySQL.State-updating</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7643,7 +7643,7 @@
                     <key>MySQL.State-writing-to-net</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7686,7 +7686,7 @@
                     <key>MySQL.table-cache</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7729,7 +7729,7 @@
                     <key>MySQL.Table-locks-immediate</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7772,7 +7772,7 @@
                     <key>MySQL.Table-locks-waited</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7815,7 +7815,7 @@
                     <key>MySQL.thread-cache-size</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7858,7 +7858,7 @@
                     <key>MySQL.thread-hash-memory</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7901,7 +7901,7 @@
                     <key>MySQL.Threads-cached</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7944,7 +7944,7 @@
                     <key>MySQL.Threads-connected</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -7987,7 +7987,7 @@
                     <key>MySQL.Threads-created</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -8030,7 +8030,7 @@
                     <key>MySQL.Threads-running</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -8073,7 +8073,7 @@
                     <key>MySQL.total-mem-alloc</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -8108,6 +8108,49 @@
                     <logtimefmt/>
                 </item>
                 <item>
+                    <name>Total number of mysqld processes</name>
+                    <type>0</type>
+                    <snmp_community/>
+                    <multiplier>0</multiplier>
+                    <snmp_oid/>
+                    <key>proc.num[mysqld]</key>
+                    <delay>60</delay>
+                    <history>90</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port/>
+                    <description>Total number of mysqld processes</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>MySQL</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                    <logtimefmt/>
+                </item>
+                <item>
                     <name>Uncheckpointed Bytes</name>
                     <type>0</type>
                     <snmp_community/>
@@ -8116,7 +8159,7 @@
                     <key>MySQL.uncheckpointed-bytes</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -8159,7 +8202,7 @@
                     <key>MySQL.unflushed-log</key>
                     <delay>300</delay>
                     <history>90</history>
-                    <trends>180</trends>
+                    <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
@@ -8184,49 +8227,6 @@
                     <privatekey/>
                     <port/>
                     <description>MySQL Unflushed Log</description>
-                    <inventory_link>0</inventory_link>
-                    <applications>
-                        <application>
-                            <name>MySQL</name>
-                        </application>
-                    </applications>
-                    <valuemap/>
-                    <logtimefmt/>
-                </item>
-                <item>
-                    <name>Total number of mysqld processes</name>
-                    <type>0</type>
-                    <snmp_community/>
-                    <multiplier>0</multiplier>
-                    <snmp_oid/>
-                    <key>proc.num[mysqld]</key>
-                    <delay>60</delay>
-                    <history>90</history>
-                    <trends>180</trends>
-                    <status>0</status>
-                    <value_type>3</value_type>
-                    <allowed_hosts/>
-                    <units/>
-                    <delta>0</delta>
-                    <snmpv3_contextname/>
-                    <snmpv3_securityname/>
-                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
-                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
-                    <snmpv3_authpassphrase/>
-                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
-                    <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
-                    <params/>
-                    <ipmi_sensor/>
-                    <data_type>0</data_type>
-                    <authtype>0</authtype>
-                    <username/>
-                    <password/>
-                    <publickey/>
-                    <privatekey/>
-                    <port/>
-                    <description>Total number of mysqld processes</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -8263,7 +8263,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MyISAM Indexes</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8285,7 +8285,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MyISAM Key Cache</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8307,7 +8307,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Buffer Pool</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8329,7 +8329,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB I/O</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8351,7 +8351,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Insert Buffer</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8373,7 +8373,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Insert Buffer Usage</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8395,7 +8395,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Semaphores</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8417,7 +8417,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Row Operations</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8439,7 +8439,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Table Locks</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8461,7 +8461,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Connections</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8483,7 +8483,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Replication</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8505,7 +8505,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Query Cache</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8527,7 +8527,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Query Cache Memory</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8549,7 +8549,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Command Counters</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8571,7 +8571,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Select Types</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8593,7 +8593,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Sorts</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8615,7 +8615,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Temporary Objects</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8637,7 +8637,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Network Traffic</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8659,7 +8659,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Buffer Pool Activity</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8681,7 +8681,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB I/O Pending</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8703,7 +8703,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Log</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8725,7 +8725,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Binary/Relay Logs</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8747,7 +8747,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Transactions</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8769,7 +8769,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Transactions Active/Locked</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8791,7 +8791,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Files and Tables</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8813,7 +8813,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Threads</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8835,7 +8835,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Memory Allocation</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8857,7 +8857,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Adaptive Hash Index</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8879,7 +8879,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Internal Hash Memory Usage</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8901,7 +8901,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Tables In Use</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8923,7 +8923,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Current Lock Waits</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8945,7 +8945,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Lock Structures</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8967,7 +8967,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Checkpoint Age</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -8989,7 +8989,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Row Lock Time</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9011,7 +9011,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Row Lock Waits</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9033,7 +9033,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Semaphore Waits</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9055,7 +9055,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Semaphore Wait Time</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9077,7 +9077,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Processlist</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9099,7 +9099,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Transaction Handler</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9121,7 +9121,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Handlers</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9143,7 +9143,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Query Time Histogram (Count)</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9165,7 +9165,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>MySQL Query Response Time (Microseconds)</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9187,7 +9187,7 @@
                             <sort_triggers>0</sort_triggers>
                             <resource>
                                 <name>InnoDB Buffer Pool Efficiency</name>
-                                <host>Template Percona MySQL Server</host>
+                                <host>Percona MySQL Server Template</host>
                             </resource>
                             <max_columns>3</max_columns>
                             <application/>
@@ -9199,47 +9199,37 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template Percona MySQL Server:MySQL.Threads-running.last(0)}&gt;70</expression>
-            <name>MySQL active threads more than 70 on {HOST.NAME}</name>
+            <expression>{Percona MySQL Server Template:MySQL.Threads-running.last(0)}&gt;40</expression>
+            <name>MySQL active threads more than 40 on {HOST.NAME}</name>
             <url/>
-            <status>1</status>
+            <status>0</status>
             <priority>3</priority>
             <description/>
             <type>0</type>
             <dependencies>
                 <dependency>
-                    <name>MySQL active threads more than 200 on {HOST.NAME}</name>
-                    <expression>{Template Percona MySQL Server:MySQL.Threads-running.last(0)}&gt;200</expression>
+                    <name>MySQL active threads more than 100 on {HOST.NAME}</name>
+                    <expression>{Percona MySQL Server Template:MySQL.Threads-running.last(0)}&gt;100</expression>
                 </dependency>
             </dependencies>
         </trigger>
         <trigger>
-            <expression>{Template Percona MySQL Server:MySQL.Threads-running.last(0)}&gt;200</expression>
-            <name>MySQL active threads more than 200 on {HOST.NAME}</name>
+            <expression>{Percona MySQL Server Template:MySQL.Threads-running.last(0)}&gt;100</expression>
+            <name>MySQL active threads more than 100 on {HOST.NAME}</name>
             <url/>
             <status>0</status>
-            <priority>2</priority>
+            <priority>4</priority>
             <description/>
             <type>0</type>
             <dependencies>
                 <dependency>
                     <name>MySQL is down on {HOST.NAME}</name>
-                    <expression>{Template Percona MySQL Server:proc.num[mysqld].last(0)}&lt;1</expression>
+                    <expression>{Percona MySQL Server Template:proc.num[mysqld].last(0)}=0</expression>
                 </dependency>
             </dependencies>
         </trigger>
         <trigger>
-            <expression>{Template Percona MySQL Server:MySQL.Connections.last(0)}&gt;5000</expression>
-            <name>MySQL Connections &gt;5000</name>
-            <url/>
-            <status>0</status>
-            <priority>2</priority>
-            <description/>
-            <type>0</type>
-            <dependencies/>
-        </trigger>
-        <trigger>
-            <expression>{Template Percona MySQL Server:MySQL.Threads-connected.last(0)}/{Template Percona MySQL Server:MySQL.max-connections.last(0)}&gt;0.8</expression>
+            <expression>{Percona MySQL Server Template:MySQL.Threads-connected.last(0)}/{Percona MySQL Server Template:MySQL.max-connections.last(0)}&gt;0.8</expression>
             <name>MySQL connections utilization more than 80% on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -9249,12 +9239,12 @@
             <dependencies>
                 <dependency>
                     <name>MySQL connections utilization more than 95% on {HOST.NAME}</name>
-                    <expression>{Template Percona MySQL Server:MySQL.Threads-connected.last(0)}/{Template Percona MySQL Server:MySQL.max-connections.last(0)}&gt;0.95</expression>
+                    <expression>{Percona MySQL Server Template:MySQL.Threads-connected.last(0)}/{Percona MySQL Server Template:MySQL.max-connections.last(0)}&gt;0.95</expression>
                 </dependency>
             </dependencies>
         </trigger>
         <trigger>
-            <expression>{Template Percona MySQL Server:MySQL.Threads-connected.last(0)}/{Template Percona MySQL Server:MySQL.max-connections.last(0)}&gt;0.95</expression>
+            <expression>{Percona MySQL Server Template:MySQL.Threads-connected.last(0)}/{Percona MySQL Server Template:MySQL.max-connections.last(0)}&gt;0.95</expression>
             <name>MySQL connections utilization more than 95% on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -9264,12 +9254,12 @@
             <dependencies>
                 <dependency>
                     <name>MySQL is down on {HOST.NAME}</name>
-                    <expression>{Template Percona MySQL Server:proc.num[mysqld].last(0)}&lt;1</expression>
+                    <expression>{Percona MySQL Server Template:proc.num[mysqld].last(0)}=0</expression>
                 </dependency>
             </dependencies>
         </trigger>
         <trigger>
-            <expression>{Template Percona MySQL Server:proc.num[mysqld].last(0)}&lt;1</expression>
+            <expression>{Percona MySQL Server Template:proc.num[mysqld].last(0)}=0</expression>
             <name>MySQL is down on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -9279,7 +9269,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template Percona MySQL Server:MySQL.slave-lag.last(0)}&gt;300</expression>
+            <expression>{Percona MySQL Server Template:MySQL.slave-lag.last(0)}&gt;300</expression>
             <name>MySQL slave lag more than 300 on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -9288,28 +9278,28 @@
             <type>0</type>
             <dependencies>
                 <dependency>
-                    <name>MySQL slave lag more than 900 on {HOST.NAME}</name>
-                    <expression>{Template Percona MySQL Server:MySQL.slave-lag.last(0)}&gt;900</expression>
+                    <name>MySQL slave lag more than 600 on {HOST.NAME}</name>
+                    <expression>{Percona MySQL Server Template:MySQL.slave-lag.last(0)}&gt;600</expression>
                 </dependency>
             </dependencies>
         </trigger>
         <trigger>
-            <expression>{Template Percona MySQL Server:MySQL.slave-lag.last(0)}&gt;900</expression>
-            <name>MySQL slave lag more than 900 on {HOST.NAME}</name>
+            <expression>{Percona MySQL Server Template:MySQL.slave-lag.last(0)}&gt;600</expression>
+            <name>MySQL slave lag more than 600 on {HOST.NAME}</name>
             <url/>
             <status>0</status>
-            <priority>2</priority>
+            <priority>4</priority>
             <description/>
             <type>0</type>
             <dependencies>
                 <dependency>
                     <name>Slave is stopped on {HOST.NAME}</name>
-                    <expression>{Template Percona MySQL Server:MySQL.running-slave.last(0)}=0</expression>
+                    <expression>{Percona MySQL Server Template:MySQL.running-slave.last(0)}=0</expression>
                 </dependency>
             </dependencies>
         </trigger>
         <trigger>
-            <expression>{Template Percona MySQL Server:MySQL.running-slave.last(0)}=0</expression>
+            <expression>{Percona MySQL Server Template:MySQL.running-slave.last(0)}=0</expression>
             <name>Slave is stopped on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -9319,7 +9309,7 @@
             <dependencies>
                 <dependency>
                     <name>MySQL is down on {HOST.NAME}</name>
-                    <expression>{Template Percona MySQL Server:proc.num[mysqld].last(0)}&lt;1</expression>
+                    <expression>{Percona MySQL Server Template:proc.num[mysqld].last(0)}=0</expression>
                 </dependency>
             </dependencies>
         </trigger>
@@ -9351,7 +9341,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.hash-index-cells-total</key>
                     </item>
                 </graph_item>
@@ -9363,7 +9353,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.hash-index-cells-used</key>
                     </item>
                 </graph_item>
@@ -9395,7 +9385,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pool-size</key>
                     </item>
                 </graph_item>
@@ -9407,7 +9397,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.database-pages</key>
                     </item>
                 </graph_item>
@@ -9419,7 +9409,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.free-pages</key>
                     </item>
                 </graph_item>
@@ -9431,7 +9421,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.modified-pages</key>
                     </item>
                 </graph_item>
@@ -9463,7 +9453,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pages-created</key>
                     </item>
                 </graph_item>
@@ -9475,7 +9465,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pages-read</key>
                     </item>
                 </graph_item>
@@ -9487,7 +9477,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pages-written</key>
                     </item>
                 </graph_item>
@@ -9519,7 +9509,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pool-read-requests</key>
                     </item>
                 </graph_item>
@@ -9531,7 +9521,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pool-reads</key>
                     </item>
                 </graph_item>
@@ -9563,7 +9553,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.uncheckpointed-bytes</key>
                     </item>
                 </graph_item>
@@ -9595,7 +9585,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.innodb-lock-wait-secs</key>
                     </item>
                 </graph_item>
@@ -9627,7 +9617,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.file-reads</key>
                     </item>
                 </graph_item>
@@ -9639,7 +9629,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.file-writes</key>
                     </item>
                 </graph_item>
@@ -9651,7 +9641,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.log-writes</key>
                     </item>
                 </graph_item>
@@ -9663,7 +9653,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.file-fsyncs</key>
                     </item>
                 </graph_item>
@@ -9695,7 +9685,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pending-aio-log-ios</key>
                     </item>
                 </graph_item>
@@ -9707,7 +9697,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pending-aio-sync-ios</key>
                     </item>
                 </graph_item>
@@ -9719,7 +9709,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pending-buf-pool-flushes</key>
                     </item>
                 </graph_item>
@@ -9731,7 +9721,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pending-chkp-writes</key>
                     </item>
                 </graph_item>
@@ -9743,7 +9733,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pending-ibuf-aio-reads</key>
                     </item>
                 </graph_item>
@@ -9755,7 +9745,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pending-log-flushes</key>
                     </item>
                 </graph_item>
@@ -9767,7 +9757,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pending-log-writes</key>
                     </item>
                 </graph_item>
@@ -9779,7 +9769,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pending-normal-aio-reads</key>
                     </item>
                 </graph_item>
@@ -9791,7 +9781,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.pending-normal-aio-writes</key>
                     </item>
                 </graph_item>
@@ -9823,7 +9813,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.ibuf-inserts</key>
                     </item>
                 </graph_item>
@@ -9835,7 +9825,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.ibuf-merged</key>
                     </item>
                 </graph_item>
@@ -9847,7 +9837,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.ibuf-merges</key>
                     </item>
                 </graph_item>
@@ -9879,7 +9869,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.ibuf-cell-count</key>
                     </item>
                 </graph_item>
@@ -9891,7 +9881,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.ibuf-used-cells</key>
                     </item>
                 </graph_item>
@@ -9903,7 +9893,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.ibuf-free-cells</key>
                     </item>
                 </graph_item>
@@ -9935,7 +9925,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.adaptive-hash-memory</key>
                     </item>
                 </graph_item>
@@ -9947,7 +9937,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.page-hash-memory</key>
                     </item>
                 </graph_item>
@@ -9959,7 +9949,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.dictionary-cache-memory</key>
                     </item>
                 </graph_item>
@@ -9971,7 +9961,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.file-system-memory</key>
                     </item>
                 </graph_item>
@@ -9983,7 +9973,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.lock-system-memory</key>
                     </item>
                 </graph_item>
@@ -9995,7 +9985,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.recovery-system-memory</key>
                     </item>
                 </graph_item>
@@ -10007,7 +9997,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.thread-hash-memory</key>
                     </item>
                 </graph_item>
@@ -10039,7 +10029,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.innodb-lock-structs</key>
                     </item>
                 </graph_item>
@@ -10071,7 +10061,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.innodb-log-buffer-size</key>
                     </item>
                 </graph_item>
@@ -10083,7 +10073,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.log-bytes-written</key>
                     </item>
                 </graph_item>
@@ -10095,7 +10085,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.log-bytes-flushed</key>
                     </item>
                 </graph_item>
@@ -10107,7 +10097,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.unflushed-log</key>
                     </item>
                 </graph_item>
@@ -10139,7 +10129,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.total-mem-alloc</key>
                     </item>
                 </graph_item>
@@ -10151,7 +10141,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.additional-pool-alloc</key>
                     </item>
                 </graph_item>
@@ -10183,7 +10173,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Innodb-row-lock-time</key>
                     </item>
                 </graph_item>
@@ -10215,7 +10205,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Innodb-row-lock-waits</key>
                     </item>
                 </graph_item>
@@ -10247,7 +10237,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.rows-read</key>
                     </item>
                 </graph_item>
@@ -10259,7 +10249,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.rows-deleted</key>
                     </item>
                 </graph_item>
@@ -10271,7 +10261,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.rows-updated</key>
                     </item>
                 </graph_item>
@@ -10283,7 +10273,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.rows-inserted</key>
                     </item>
                 </graph_item>
@@ -10315,7 +10305,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.spin-rounds</key>
                     </item>
                 </graph_item>
@@ -10327,7 +10317,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.spin-waits</key>
                     </item>
                 </graph_item>
@@ -10339,7 +10329,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.os-waits</key>
                     </item>
                 </graph_item>
@@ -10371,7 +10361,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.innodb-sem-waits</key>
                     </item>
                 </graph_item>
@@ -10403,7 +10393,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.innodb-sem-wait-time-ms</key>
                     </item>
                 </graph_item>
@@ -10435,7 +10425,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.innodb-tables-in-use</key>
                     </item>
                 </graph_item>
@@ -10447,7 +10437,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.innodb-locked-tables</key>
                     </item>
                 </graph_item>
@@ -10479,7 +10469,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.innodb-transactions</key>
                     </item>
                 </graph_item>
@@ -10491,7 +10481,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.history-list</key>
                     </item>
                 </graph_item>
@@ -10523,7 +10513,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.active-transactions</key>
                     </item>
                 </graph_item>
@@ -10535,7 +10525,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.locked-transactions</key>
                     </item>
                 </graph_item>
@@ -10547,7 +10537,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.current-transactions</key>
                     </item>
                 </graph_item>
@@ -10559,7 +10549,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.read-views</key>
                     </item>
                 </graph_item>
@@ -10591,7 +10581,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Key-read-requests</key>
                     </item>
                 </graph_item>
@@ -10603,7 +10593,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Key-reads</key>
                     </item>
                 </graph_item>
@@ -10615,7 +10605,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Key-write-requests</key>
                     </item>
                 </graph_item>
@@ -10627,7 +10617,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Key-writes</key>
                     </item>
                 </graph_item>
@@ -10659,7 +10649,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.key-buffer-size</key>
                     </item>
                 </graph_item>
@@ -10671,7 +10661,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Key-buf-bytes-used</key>
                     </item>
                 </graph_item>
@@ -10683,7 +10673,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Key-buf-bytes-unflushed</key>
                     </item>
                 </graph_item>
@@ -10715,7 +10705,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Binlog-cache-use</key>
                     </item>
                 </graph_item>
@@ -10727,7 +10717,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Binlog-cache-disk-use</key>
                     </item>
                 </graph_item>
@@ -10739,7 +10729,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.binary-log-space</key>
                     </item>
                 </graph_item>
@@ -10751,7 +10741,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.relay-log-space</key>
                     </item>
                 </graph_item>
@@ -10783,7 +10773,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Questions</key>
                     </item>
                 </graph_item>
@@ -10795,7 +10785,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-select</key>
                     </item>
                 </graph_item>
@@ -10807,7 +10797,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-delete</key>
                     </item>
                 </graph_item>
@@ -10819,7 +10809,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-insert</key>
                     </item>
                 </graph_item>
@@ -10831,7 +10821,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-update</key>
                     </item>
                 </graph_item>
@@ -10843,7 +10833,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-replace</key>
                     </item>
                 </graph_item>
@@ -10855,7 +10845,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-load</key>
                     </item>
                 </graph_item>
@@ -10867,7 +10857,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-delete-multi</key>
                     </item>
                 </graph_item>
@@ -10879,7 +10869,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-insert-select</key>
                     </item>
                 </graph_item>
@@ -10891,7 +10881,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-update-multi</key>
                     </item>
                 </graph_item>
@@ -10903,7 +10893,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Com-replace-select</key>
                     </item>
                 </graph_item>
@@ -10935,7 +10925,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.max-connections</key>
                     </item>
                 </graph_item>
@@ -10947,7 +10937,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Max-used-connections</key>
                     </item>
                 </graph_item>
@@ -10959,7 +10949,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Aborted-clients</key>
                     </item>
                 </graph_item>
@@ -10971,7 +10961,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Aborted-connects</key>
                     </item>
                 </graph_item>
@@ -10983,7 +10973,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Threads-connected</key>
                     </item>
                 </graph_item>
@@ -10995,7 +10985,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Connections</key>
                     </item>
                 </graph_item>
@@ -11027,7 +11017,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.table-cache</key>
                     </item>
                 </graph_item>
@@ -11039,7 +11029,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Open-tables</key>
                     </item>
                 </graph_item>
@@ -11051,7 +11041,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Open-files</key>
                     </item>
                 </graph_item>
@@ -11063,7 +11053,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Opened-tables</key>
                     </item>
                 </graph_item>
@@ -11095,7 +11085,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-write</key>
                     </item>
                 </graph_item>
@@ -11107,7 +11097,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-update</key>
                     </item>
                 </graph_item>
@@ -11119,7 +11109,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-delete</key>
                     </item>
                 </graph_item>
@@ -11131,7 +11121,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-read-first</key>
                     </item>
                 </graph_item>
@@ -11143,7 +11133,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-read-key</key>
                     </item>
                 </graph_item>
@@ -11155,7 +11145,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-read-next</key>
                     </item>
                 </graph_item>
@@ -11167,7 +11157,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-read-prev</key>
                     </item>
                 </graph_item>
@@ -11179,7 +11169,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-read-rnd</key>
                     </item>
                 </graph_item>
@@ -11191,7 +11181,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-read-rnd-next</key>
                     </item>
                 </graph_item>
@@ -11223,7 +11213,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Bytes-sent</key>
                     </item>
                 </graph_item>
@@ -11235,7 +11225,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Bytes-received</key>
                     </item>
                 </graph_item>
@@ -11267,7 +11257,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-closing-tables</key>
                     </item>
                 </graph_item>
@@ -11279,7 +11269,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-copying-to-tmp-table</key>
                     </item>
                 </graph_item>
@@ -11291,7 +11281,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-end</key>
                     </item>
                 </graph_item>
@@ -11303,7 +11293,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-freeing-items</key>
                     </item>
                 </graph_item>
@@ -11315,7 +11305,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-init</key>
                     </item>
                 </graph_item>
@@ -11327,7 +11317,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-locked</key>
                     </item>
                 </graph_item>
@@ -11339,7 +11329,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-login</key>
                     </item>
                 </graph_item>
@@ -11351,7 +11341,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-preparing</key>
                     </item>
                 </graph_item>
@@ -11363,7 +11353,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-reading-from-net</key>
                     </item>
                 </graph_item>
@@ -11375,7 +11365,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-sending-data</key>
                     </item>
                 </graph_item>
@@ -11387,7 +11377,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-sorting-result</key>
                     </item>
                 </graph_item>
@@ -11399,7 +11389,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-statistics</key>
                     </item>
                 </graph_item>
@@ -11411,7 +11401,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-updating</key>
                     </item>
                 </graph_item>
@@ -11423,7 +11413,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-writing-to-net</key>
                     </item>
                 </graph_item>
@@ -11435,7 +11425,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-none</key>
                     </item>
                 </graph_item>
@@ -11447,7 +11437,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.State-other</key>
                     </item>
                 </graph_item>
@@ -11479,7 +11469,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Qcache-queries-in-cache</key>
                     </item>
                 </graph_item>
@@ -11491,7 +11481,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Qcache-hits</key>
                     </item>
                 </graph_item>
@@ -11503,7 +11493,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Qcache-inserts</key>
                     </item>
                 </graph_item>
@@ -11515,7 +11505,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Qcache-not-cached</key>
                     </item>
                 </graph_item>
@@ -11527,7 +11517,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Qcache-lowmem-prunes</key>
                     </item>
                 </graph_item>
@@ -11559,7 +11549,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.query-cache-size</key>
                     </item>
                 </graph_item>
@@ -11571,7 +11561,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Qcache-free-memory</key>
                     </item>
                 </graph_item>
@@ -11583,7 +11573,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Qcache-total-blocks</key>
                     </item>
                 </graph_item>
@@ -11595,7 +11585,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Qcache-free-blocks</key>
                     </item>
                 </graph_item>
@@ -11627,7 +11617,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-00</key>
                     </item>
                 </graph_item>
@@ -11639,7 +11629,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-01</key>
                     </item>
                 </graph_item>
@@ -11651,7 +11641,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-02</key>
                     </item>
                 </graph_item>
@@ -11663,7 +11653,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-03</key>
                     </item>
                 </graph_item>
@@ -11675,7 +11665,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-04</key>
                     </item>
                 </graph_item>
@@ -11687,7 +11677,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-05</key>
                     </item>
                 </graph_item>
@@ -11699,7 +11689,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-06</key>
                     </item>
                 </graph_item>
@@ -11711,7 +11701,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-07</key>
                     </item>
                 </graph_item>
@@ -11723,7 +11713,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-08</key>
                     </item>
                 </graph_item>
@@ -11735,7 +11725,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-09</key>
                     </item>
                 </graph_item>
@@ -11747,7 +11737,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-10</key>
                     </item>
                 </graph_item>
@@ -11759,7 +11749,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-11</key>
                     </item>
                 </graph_item>
@@ -11771,7 +11761,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-12</key>
                     </item>
                 </graph_item>
@@ -11783,7 +11773,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-total-13</key>
                     </item>
                 </graph_item>
@@ -11815,7 +11805,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-00</key>
                     </item>
                 </graph_item>
@@ -11827,7 +11817,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-01</key>
                     </item>
                 </graph_item>
@@ -11839,7 +11829,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-02</key>
                     </item>
                 </graph_item>
@@ -11851,7 +11841,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-03</key>
                     </item>
                 </graph_item>
@@ -11863,7 +11853,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-04</key>
                     </item>
                 </graph_item>
@@ -11875,7 +11865,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-05</key>
                     </item>
                 </graph_item>
@@ -11887,7 +11877,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-06</key>
                     </item>
                 </graph_item>
@@ -11899,7 +11889,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-07</key>
                     </item>
                 </graph_item>
@@ -11911,7 +11901,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-08</key>
                     </item>
                 </graph_item>
@@ -11923,7 +11913,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-09</key>
                     </item>
                 </graph_item>
@@ -11935,7 +11925,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-10</key>
                     </item>
                 </graph_item>
@@ -11947,7 +11937,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-11</key>
                     </item>
                 </graph_item>
@@ -11959,7 +11949,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-12</key>
                     </item>
                 </graph_item>
@@ -11971,7 +11961,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Query-time-count-13</key>
                     </item>
                 </graph_item>
@@ -12003,7 +11993,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.slave-running</key>
                     </item>
                 </graph_item>
@@ -12015,7 +12005,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.slave-stopped</key>
                     </item>
                 </graph_item>
@@ -12027,7 +12017,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.slave-lag</key>
                     </item>
                 </graph_item>
@@ -12039,7 +12029,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Slave-open-temp-tables</key>
                     </item>
                 </graph_item>
@@ -12051,7 +12041,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Slave-retried-transactions</key>
                     </item>
                 </graph_item>
@@ -12083,7 +12073,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Select-full-join</key>
                     </item>
                 </graph_item>
@@ -12095,7 +12085,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Select-full-range-join</key>
                     </item>
                 </graph_item>
@@ -12107,7 +12097,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Select-range</key>
                     </item>
                 </graph_item>
@@ -12119,7 +12109,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Select-range-check</key>
                     </item>
                 </graph_item>
@@ -12131,7 +12121,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Select-scan</key>
                     </item>
                 </graph_item>
@@ -12163,7 +12153,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Sort-rows</key>
                     </item>
                 </graph_item>
@@ -12175,7 +12165,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Sort-range</key>
                     </item>
                 </graph_item>
@@ -12187,7 +12177,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Sort-merge-passes</key>
                     </item>
                 </graph_item>
@@ -12199,7 +12189,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Sort-scan</key>
                     </item>
                 </graph_item>
@@ -12231,7 +12221,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Table-locks-immediate</key>
                     </item>
                 </graph_item>
@@ -12243,7 +12233,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Table-locks-immediate</key>
                     </item>
                 </graph_item>
@@ -12255,7 +12245,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Table-locks-waited</key>
                     </item>
                 </graph_item>
@@ -12267,7 +12257,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Slow-queries</key>
                     </item>
                 </graph_item>
@@ -12299,7 +12289,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Created-tmp-tables</key>
                     </item>
                 </graph_item>
@@ -12311,7 +12301,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Created-tmp-tables</key>
                     </item>
                 </graph_item>
@@ -12323,7 +12313,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Created-tmp-disk-tables</key>
                     </item>
                 </graph_item>
@@ -12335,7 +12325,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Created-tmp-files</key>
                     </item>
                 </graph_item>
@@ -12367,7 +12357,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.thread-cache-size</key>
                     </item>
                 </graph_item>
@@ -12379,7 +12369,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Threads-connected</key>
                     </item>
                 </graph_item>
@@ -12391,7 +12381,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Threads-running</key>
                     </item>
                 </graph_item>
@@ -12403,7 +12393,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Threads-created</key>
                     </item>
                 </graph_item>
@@ -12415,7 +12405,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Threads-cached</key>
                     </item>
                 </graph_item>
@@ -12447,7 +12437,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-commit</key>
                     </item>
                 </graph_item>
@@ -12459,7 +12449,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-rollback</key>
                     </item>
                 </graph_item>
@@ -12471,7 +12461,7 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-savepoint</key>
                     </item>
                 </graph_item>
@@ -12483,64 +12473,8 @@
                     <calc_fnc>2</calc_fnc>
                     <type>0</type>
                     <item>
-                        <host>Template Percona MySQL Server</host>
+                        <host>Percona MySQL Server Template</host>
                         <key>MySQL.Handler-savepoint-rollback</key>
-                    </item>
-                </graph_item>
-            </graph_items>
-        </graph>
-        <graph>
-            <name>select_insert_update</name>
-            <width>900</width>
-            <height>200</height>
-            <yaxismin>0.0000</yaxismin>
-            <yaxismax>100.0000</yaxismax>
-            <show_work_period>1</show_work_period>
-            <show_triggers>1</show_triggers>
-            <type>0</type>
-            <show_legend>1</show_legend>
-            <show_3d>0</show_3d>
-            <percent_left>0.0000</percent_left>
-            <percent_right>0.0000</percent_right>
-            <ymin_type_1>0</ymin_type_1>
-            <ymax_type_1>0</ymax_type_1>
-            <ymin_item_1>0</ymin_item_1>
-            <ymax_item_1>0</ymax_item_1>
-            <graph_items>
-                <graph_item>
-                    <sortorder>0</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>C80000</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Template Percona MySQL Server</host>
-                        <key>MySQL.Com-insert</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>1</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>00C800</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Template Percona MySQL Server</host>
-                        <key>MySQL.Com-select</key>
-                    </item>
-                </graph_item>
-                <graph_item>
-                    <sortorder>2</sortorder>
-                    <drawtype>0</drawtype>
-                    <color>0000C8</color>
-                    <yaxisside>0</yaxisside>
-                    <calc_fnc>2</calc_fnc>
-                    <type>0</type>
-                    <item>
-                        <host>Template Percona MySQL Server</host>
-                        <key>MySQL.Com-update</key>
                     </item>
                 </graph_item>
             </graph_items>
