@@ -1,0 +1,4 @@
+[client]
+user = 'zabbix_mysql'
+host = localhost
+password = '81f249c2450b3583ae3cc2670f9228'
